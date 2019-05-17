@@ -1,0 +1,18 @@
+[
+  {
+    "productname": "Bernelle Mule",
+    "imageurl": [
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe1/6fddc649-4738-4674-b261-5e2157822540.jpeg",
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe1/a3b1d9af-4d6c-4200-9158-ea39ed284d29.jpeg",
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe1/a758ba8d-3595-4557-9d49-6029a1626e4c.jpeg"
+    ],
+    "sizes": [6, 7, 8],
+    "designer": "Acne Studio",
+    "price": 480,
+    "color": ["black"],
+    "description": "it's a shoe"
+  },
+  {
+    
+  }
+]
