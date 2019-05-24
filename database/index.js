@@ -9,10 +9,12 @@ mongoose.connect('mongodb://localhost/morelooks', {useNewUrlParser: true})
 const productSchema = new mongoose.Schema({
   productname: String,
   imageurl: [String],
-  sizes: [String],
+  shoesizes: [Number],
+  clothingsizes: [String],
   designer: String,
   price: Number,
   color: [String],
+  itemtype: String,
   description: String,
 });
 

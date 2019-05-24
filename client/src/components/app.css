@@ -1,0 +1,20 @@
+.looksContainer {
+  padding: 20px;
+  height: 600px;
+  width: 300px;
+}
+.looksDiv  {
+  margin-bottom: 15px;
+}
+
+.looks {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+  padding-right: 25px;
+}
+
+.moreLooks {
+  font-size: 15px;
+  color: #393939;
+}
+

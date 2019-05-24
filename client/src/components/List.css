@@ -1,0 +1,61 @@
+.box {
+    border: 1px solid #e3e3e3;
+    padding: 15px;
+    height: 700px;
+    width: 450px;
+}
+
+.modernOfficeWrapper {
+    text-align: center;
+    color: #393939;
+}
+
+.modernOfficeDiv {
+    padding-bottom: 15px;
+}
+
+.nordstromLink {
+    text-align: center;
+    color: #393939;
+}
+a:visited {
+    color: #393939;
+}
+
+.line {
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #e3e3e3;
+    margin: 1em 0; 
+    padding: 0;
+}
+
+.gridContainer {
+    display: inline-grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    /* justify-content: space-around; */
+}
+
+.earringItem {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.braceletItem {
+    margin-top: 40px;
+}
+
+.dressItem {
+    margin-top: 100px;
+}
+
+.purseItem {
+    margin-top: 30px;
+}
+
+
+.shoeItem {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
