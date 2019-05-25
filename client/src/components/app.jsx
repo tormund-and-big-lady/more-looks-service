@@ -19,6 +19,7 @@ class App extends React.Component {
     this.getEarring = this.getEarring.bind(this);
     this.getBracelet = this.getBracelet.bind(this);
     this.getDress = this.getDress.bind(this);
+    this.randomLikes = this.randomLikes.bind(this);
   }
 
   componentDidMount() {
@@ -74,6 +75,14 @@ class App extends React.Component {
       .catch(err => console.error(err))
   }
 
+  randomLikes() {
+    return Math.floor(Math.random() * 10)
+  }
+  
+  changeIndex() {
+    
+  }
+
   render() {
     return (
       <div>
@@ -82,7 +91,7 @@ class App extends React.Component {
             <span className={style.looks} >LOOKS  </span>
             <a href="#" className={style.moreLooks}>    Shop more looks</a>
           </div>
-          <List purse={this.state.purse} shoe={this.state.shoe} earring={this.state.earring} bracelet={this.state.bracelet} dress={this.state.dress} />
+          <List purse={this.state.purse} shoe={this.state.shoe} earring={this.state.earring} bracelet={this.state.bracelet} dress={this.state.dress} randomLikes={this.randomLikes}/>
         </div>
       </div>
     )

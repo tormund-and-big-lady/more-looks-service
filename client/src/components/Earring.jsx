@@ -9,8 +9,8 @@ const Earring = (props) => {
   } else {
     return (
       <div>
-        <img src={props.earring.imageurl[0]} height="103px" width="77px"/>
-        <span className={style.price}>$ {props.earring.price} </span>
+        <img src={props.earring.imageurl[0]} height="30%" width="50%" className={style.earringImage}/>
+        <div className={style.price}>${props.earring.price} </div>
       </div>
     )
   }

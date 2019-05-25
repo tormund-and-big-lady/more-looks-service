@@ -6,6 +6,7 @@ import Shoe from './Shoe.jsx';
 import Dress from './Dress.jsx';
 import style from './List.css';
 
+
 const List = (props) => {
   if (props.earring === undefined || props.shoe === undefined || props.purse === undefined) {
     return (
@@ -36,7 +37,15 @@ const List = (props) => {
           </div>
           </div>
           <hr className={style.line}></hr>
+          <img src="svgheart.svg" className={style.svgHeart}/>
+          <img src='svgexport.svg' />
+          <span className={style.randomLikes}> {props.randomLikes()} love this look</span>
+          <div className={style.designerName}> From {props.earring.designer}, {props.shoe.designer}, {props.dress.designer}, {props.purse.designer}, and {props.bracelet.designer}</div>
+          <div>
+
+          </div>
         </div>
+        <hr className={style.bottomLine}></hr>
       </div>
     )
   }

@@ -1,3 +1,43 @@
+.carouselWrapper {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.photos {
+  display: block;
+}
+
+.dressImageContainer {
+}
+
 .dressImage {
-  float: left;
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+  top: 30%;
+}
+
+.backButton {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+}
+
+.forwardButton {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+}
+
+.carouselForwardButton {
+  transform: rotate(180deg);
+}
+
+.dressPrice {
+  text-align: center;
+  font-weight: 700;
 }

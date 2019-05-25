@@ -1,29 +1,67 @@
 import React from 'react';
-// import axios from 'axios';
+import style from './purse.css'
 
 
-const Purse = (props) => {
-  if (props.purse.imageurl === undefined) {
-    return (
-      <div> loading </div>
-    )
+class Purse extends React.Component {
+  constructor (props) {
+    super(props);
+    this.state = {
+      index: 0
+    }
+    this.increaseIndex = this.increaseIndex.bind(this);
+    this.decreaseIndex = this.decreaseIndex.bind(this);
   }
-  if (props.purse.imageurl.length === 1) {
-    return (
-      <div>
-        <img src={props.purse.imageurl[0]} />
-      </div>
-    )
-  } else {
-    return (
-      <div>
-        {/* {props.purse.imageurl.map(pic => {
-          return <img src={pic} height="150px" width="140px"/>
-        })} */}
-        <img src={props.purse.imageurl[0]} height="103px" width="105px"/>
-        $ {props.purse.price}
-      </div>
-    )
+
+  decreaseIndex() {
+    if (this.state.index === 0){
+      this.setState({
+        index: 0
+      })
+    } else {
+      this.setState({
+        index: this.state.index-=1,
+      }, () => console.log(this.state.index))
+    }
+  }
+
+  increaseIndex() {
+    if (this.state.index === this.props.purse.imageurl.length-1){
+      this.setState({
+        index: this.state.index
+      })
+    } else {
+      this.setState({
+        index: this.state.index+=1,
+      }, () => console.log(this.state.index))
+    }
+  }
+
+  render() {
+    if (this.props.purse.imageurl === undefined) {
+      return (
+        <div> loading </div>
+      )
+    } else {
+       return (
+        <div>
+          <div className={style.carouselWrapper}>
+            <div className={style.backButton}>
+              <img onClick={this.decreaseIndex} className={style.carouselBackButton} src="svgleftarrow.svg"/>
+            </div>
+
+            <div className={style.dressDiv} >
+              <img src={this.props.purse.imageurl[this.state.index]} height="60%" width="60%" className={style.purseImage}/>
+            </div>
+
+            <div className={style.forwardButton}>
+              <img onClick={this.increaseIndex} className={style.carouselForwardButton} src="svgleftarrow.svg" />
+            </div>
+
+          <div className={style.pursePrice}>${this.props.purse.price}</div>
+          </div>
+        </div>
+      )
+    }
   }
 }
 

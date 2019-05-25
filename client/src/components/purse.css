@@ -1,0 +1,21 @@
+
+.carouselForwardButton {
+  transform: rotate(180deg);
+}
+
+.pursePrice {
+  text-align: center;
+  font-weight: 700;
+}
+
+/* .backButton {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+}
+
+.forwardButton {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+} */

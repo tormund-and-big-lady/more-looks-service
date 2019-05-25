@@ -1,4 +1,5 @@
 import React from 'react';
+import style from './bracelet.css';
 
 const Bracelet = (props) => {
   console.log(props.bracelet)
@@ -10,7 +11,7 @@ const Bracelet = (props) => {
     return (
       <div>
         <img src={props.bracelet.imageurl[0]} height="150px" width="100px" />
-        $ {props.bracelet.price}
+        <div className={style.braceletPrice}>${props.bracelet.price} </div>
       </div>
     )
   }
