@@ -8,14 +8,44 @@
   font-weight: 700;
 }
 
-/* .backButton {
+.carouselWrapper {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.purseImage {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100%;
+}
+
+.backButton {
+  visibility: hidden;
+}
+
+.backButtontrue {
   position: absolute;
   top: 50%;
   left: 0px;
 }
 
 .forwardButton {
+  visibility: hidden;
+}
+
+.forwardButtontrue {
   position: absolute;
   right: 0px;
   top: 50%;
-} */
+}
+
+.pursePrice {
+  position: relative;
+  top: -20px;
+  top: 50%;
+}

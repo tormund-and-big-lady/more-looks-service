@@ -522,6 +522,7 @@
     "imageurl": [ "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/dresses/dress1.jpeg",
     "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/dresses/dress12.jpeg" ],
     "designer": "Givency",
+    "clothingsizes": ["X-Small", "Medium", "Large"],
     "price": 176,
     "color": [ "Black" ],
     "itemtype": "dress",

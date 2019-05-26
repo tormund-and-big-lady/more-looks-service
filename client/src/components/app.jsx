@@ -12,7 +12,7 @@ class App extends React.Component {
       earring: {},
       shoe: {},
       bracelet: {},
-      dress: {}
+      dress: {},
     }
     this.getShoe = this.getShoe.bind(this);
     this.getPurse = this.getPurse.bind(this);
@@ -77,10 +77,6 @@ class App extends React.Component {
 
   randomLikes() {
     return Math.floor(Math.random() * 10)
-  }
-  
-  changeIndex() {
-    
   }
 
   render() {

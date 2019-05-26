@@ -5,29 +5,45 @@
   position: relative;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
-.photos {
-  display: block;
+.dressModal {
+  visibility: hidden;
 }
 
-.dressImageContainer {
+.dressModaltrue {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  color: pink;
+  text-align: right;
 }
 
 .dressImage {
   object-fit: cover;
-  width: 100%;
+  max-width: 100%;
   max-height: 100%;
-  top: 30%;
+  margin-top: 50%;
+  bottom: 50%;
 }
 
+
 .backButton {
+  visibility: hidden;
+}
+
+.backButtontrue {
   position: absolute;
   top: 50%;
   left: 0px;
 }
 
 .forwardButton {
+  visibility: hidden;
+}
+
+.forwardButtontrue {
   position: absolute;
   right: 0px;
   top: 50%;

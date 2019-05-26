@@ -2,6 +2,36 @@
   transform: rotate(180deg);
 }
 
+.carouselWrapper {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.backButton {
+  visibility: hidden;
+}
+
+.backButtontrue {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+}
+
+.forwardButton {
+  visibility: hidden;
+}
+
+.forwardButtontrue {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+}
+
 .shoeImage {
   height: 70%;
   width: 70%;
@@ -11,4 +41,5 @@
 .shoePrice {
   text-align: center;
   font-weight: 700;
+  bottom: 50%;
 }

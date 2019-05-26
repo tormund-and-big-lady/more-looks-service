@@ -1,3 +1,9 @@
+.componentContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
 .box {
     border: 1px solid #e3e3e3;
     padding: 15px;
@@ -34,7 +40,7 @@ a:visited {
 
 .gridContainer {
     display: inline-grid;
-    grid-template-columns: 25% 45% 30%;
+    grid-template-columns: 27.5% 45% 27.5%;
     justify-content: space-around;
 }
 
@@ -79,6 +85,16 @@ a:visited {
     color: #393939;
 }
 
-/* .bottomLine {
-    margin: 50px;
-} */
+.secondComponentfalse {
+    /* text-align: center; */
+    flex-basis: 100%;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.DressModalfalse {
+  /* visibility: hidden; */
+  /* display: none; */
+}
