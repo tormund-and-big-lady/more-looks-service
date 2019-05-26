@@ -2,7 +2,6 @@ import React from 'react';
 import style from './bracelet.css';
 
 const Bracelet = (props) => {
-  console.log(props.bracelet)
   if (props.bracelet.imageurl === undefined) {
     return (
       <div> loading </div>

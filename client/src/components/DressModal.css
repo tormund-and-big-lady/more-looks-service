@@ -1,0 +1,125 @@
+.componentContainerfalse {
+  display: none;
+}
+
+.componentContainertrue {
+  display: block;
+}
+
+.componentWrapper {
+  display: flex;
+  flex-direction: row;
+  color: #393939;
+}
+
+.secondComponent {
+  width: 330px;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+.productInfoContainerfalse {
+  display: flex;
+  flex-direction: column;
+}
+
+.productInfoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.image{
+  margin-top: 30%;
+  margin-left: 15%;
+  
+}
+
+.star {
+  margin-top: 60%;
+  margin-bottom: 2%;
+}
+
+.productName {
+  display: flex;
+  flex-direction: row;
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 2%;
+}
+
+
+.designer {
+  color: #393939;
+}
+.designer:hover {
+  cursor: pointer;
+  /* border-bottom: 2px solid #393939;
+  width:20%; */
+  text-decoration: underline;
+}
+
+.price {
+  margin-top: 15%;
+  margin-right: 4%;
+  font-weight: 700;
+  font-size: 15px;
+  /* margin-bottom: 20%; */
+}
+
+.description {
+  margin-top: 20%;
+  margin-bottom: 15%;
+}
+
+.sizeInput {
+  border: 1px solid #e3e3e3;
+}
+
+.sizeInput:hover {
+  border-bottom: 5px solid #e3e3e3; 
+  position: relative;
+  /* text-decoration-color: 5px solid #e3e3e3; */
+}
+
+.size {
+  padding: 12px 15px;
+  font-weight: 700;
+}
+
+.showSize {
+  visibility: hidden;
+}
+.showSizetrue {
+  visibility: visible;
+}
+
+.carrot {
+  margin-left: 83.5%;
+}
+
+.showSizestrue {
+  border: 1px solid #e3e3e3;
+}
+
+.sizeGuide {
+  margin-top: 5%;
+  margin-left: 73%;
+  border-bottom: 1px solid #393939;
+  margin-bottom: 10px;
+}
+
+.addToBag {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  padding: 12px 135px;
+}
+
+.addToBag:hover {
+  background: #333;
+}
+
+.detailsContainer {
+  text-align: center;
+  padding-top: 10%;
+}
