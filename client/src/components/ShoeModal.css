@@ -1,0 +1,119 @@
+.componentContainerfalse {
+  display: none;
+}
+
+.componentContainertrue{
+  display: inline-block;
+}
+
+.componentWrapper {
+  display: flex;
+  flex-direction: row;
+  color: #393939;
+}
+
+.image {
+  margin-top: 20%;
+  margin-left: 15%;
+}
+
+.secondComponent {
+  width: 350px;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+.productName {
+  display: flex;
+  flex-direction: row;
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 2%;
+}
+
+
+.designer {
+  color: #393939;
+}
+.designer:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.price {
+  margin-top: 5%;
+  margin-right: 4%;
+  font-weight: 700;
+  font-size: 15px;
+  /* margin-bottom: 20%; */
+}
+
+.shipping{
+  padding-left: 20px;
+  font-weight: 200;
+}
+
+.description {
+  margin-top: 5%;
+  margin-bottom: 15%;
+  width: 350px;
+}
+
+.sizeInput {
+  border: 1px solid #e3e3e3;
+}
+
+.sizeInput:hover {
+  border-bottom: 5px solid #e3e3e3; 
+  position: relative;
+  /* text-decoration-color: 5px solid #e3e3e3; */
+}
+
+.size {
+  padding: 12px 15px;
+  font-weight: 700;
+}
+
+.showSize {
+  visibility: hidden;
+}
+.showSizetrue {
+  visibility: visible;
+}
+
+.carrot {
+  margin-left: 83.5%;
+}
+
+.showSizestrue {
+  border: 1px solid #e3e3e3;
+}
+
+.sizeInput {
+  width: 300px;
+}
+
+.sizeGuide {
+  margin-top: 5%;
+  border-bottom: 1px solid #393939;
+  margin-bottom: 10px;
+  margin-right: 12%;
+  float: right;
+}
+
+.addToBag {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  padding: 12px 125px;
+}
+
+.addToBag:hover {
+  background: #333;
+}
+
+.detailsContainer {
+  width: 350px;
+  text-align: center;
+  padding-top: 5%;
+}

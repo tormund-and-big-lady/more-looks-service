@@ -6,6 +6,9 @@ import Shoe from './Shoe.jsx';
 import Dress from './Dress.jsx';
 import DressModal from './DressModal.jsx';
 import BraceletModal from './BraceletModal.jsx';
+import EarringModal from './EarringModal.jsx';
+import PurseModal from './PurseModal.jsx';
+import ShoeModal from './ShoeModal.jsx';
 import style from './List.css';
 
 
@@ -151,13 +154,11 @@ class List extends React.Component {
             </div>
 
             <div className={style.secondComponent}>
-              {/* <div className={style.DressModal + this.state.dressmodal} > */}
                 <DressModal dress={this.props.dress} modal={this.state.dressmodal} stars={this.stars}/>
-              {/* </div> */}
-
-              {/* <div className={style.BraceletModal + this.state.braceletmodal}> */}
                 <BraceletModal bracelet={this.props.bracelet} modal={this.state.braceletmodal}/>
-              {/* </div> */}
+                <EarringModal earring={this.props.earring} modal={this.state.earringmodal}/>
+                <PurseModal purse={this.props.purse} modal={this.state.pursemodal} />
+                <ShoeModal shoe={this.props.shoe} modal={this.state.shoemodal} stars={this.stars} />
             </div>
 
           </div>
