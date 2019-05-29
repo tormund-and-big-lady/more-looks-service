@@ -34,10 +34,15 @@
 
 .designer {
   color: #393939;
+  font-size: 13px;
+  border-bottom: 2px solid white;
+  width:20%;
 }
+
 .designer:hover {
   cursor: pointer;
-  text-decoration: underline;
+  border-bottom-color: #393939;
+  width:20%;
 }
 
 .price {
@@ -51,19 +56,21 @@
 .shipping{
   padding-left: 20px;
   font-weight: 200;
+  font-size: 13px;
 }
 
 .description {
   margin-top: 5%;
   margin-bottom: 15%;
   width: 350px;
+  font-size: 13px;
 }
 
 .addToBag {
   cursor: pointer;
   color: white;
   background-color: black;
-  padding: 12px 135px;
+  padding: 12px 125px;
 }
 
 .addToBag:hover {
@@ -74,4 +81,5 @@
   width: 350px;
   text-align: center;
   padding-top: 5%;
+  font-size: 13px;
 }

@@ -66,7 +66,7 @@ class Dress extends React.Component {
                 <img onClick={this.decreaseIndex} className={style.carouselBackButton} src="svgleftarrow.svg" onMouseOut={() => this.hideArrows()} />
               </div>
               <div className={style.dressImageContainer}>
-                <img onClick={this.showModal} onMouseOver={() => this.showArrows()} src={this.props.dress.imageurl[this.state.index]} className={style.dressImage} height="200%" width="150%" />
+                <img onClick={this.showModal} onMouseOver={() => this.showArrows()} src={this.props.dress.imageurl[this.state.index]} className={style.dressImage} height="240%" width="200%" />
               </div>
               <div className={style.forwardButton + this.state.forwardButton} >
                 <img onClick={this.increaseIndex} className={style.carouselForwardButton} src="svgleftarrow.svg" onMouseOut={() => this.hideArrows()} />

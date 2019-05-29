@@ -6,7 +6,6 @@ class EarringModal extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-
     }
   }
 
@@ -26,8 +25,10 @@ class EarringModal extends React.Component {
                 {this.props.earring.productname}
               </div>
 
-              <div className={style.designer}>
-                {this.props.earring.designer}
+              <div className={style.designerBox}>
+                <div className={style.designer}>
+                  {this.props.earring.designer}
+                </div>
               </div>
 
               <div className={style.price}>

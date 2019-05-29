@@ -2,16 +2,16 @@
   {
     "productname": "Bernelle Mule",
     "imageurl": [
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe1/a758ba8d-3595-4557-9d49-6029a1626e4c.jpeg",
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe1/6fddc649-4738-4674-b261-5e2157822540.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe1/a3b1d9af-4d6c-4200-9158-ea39ed284d29.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe1/a758ba8d-3595-4557-9d49-6029a1626e4c.jpeg"
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe1/a3b1d9af-4d6c-4200-9158-ea39ed284d29.jpeg"
     ],
     "shoesizes": [
       6,
       7,
       8
     ],
-    "designer": "Acne Studio",
+    "designer": "ACNE STUDIO",
     "price": 480,
     "color": [
       "black"
@@ -22,12 +22,9 @@
   {
     "productname": "Despina Strappy Sandal",
     "imageurl": [
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe2/0cfa4e30-57ed-438e-a381-6c572276af58.jpeg",
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe2/5eb19242-e0bc-4cd7-b0e7-0dc1c151a294.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe2/79c56584-4230-453b-826b-d3ee1560009e.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe2/c30660ca-ae55-480c-b05c-22f81977810e.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe2/cc51ac42-c39f-42f8-a1ba-34b728e3673b.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe2/e45ea1d2-7a1c-4821-aaf0-c20cc11fb9b6.jpeg"
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe2/0cfa4e30-57ed-438e-a381-6c572276af58.jpeg",
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe2/cc51ac42-c39f-42f8-a1ba-34b728e3673b.jpeg"
     ],
     "shoesizes": [
       6,
@@ -38,10 +35,9 @@
       8.5,
       10.5
     ],
-    "designer": "Givency",
+    "designer": "GIVENCY",
     "price": 211,
     "color": [
-      "Taupe Suede",
       "Python Print"
     ],
     "itemtype": "shoe",
@@ -50,10 +46,8 @@
   {
     "productname": "Irenee Ankle Strap Sandal",
     "imageurl": [
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe3/093e15ac-67a0-4775-930a-d1f5bfa93649.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe3/0b8a2470-73cb-486e-b8a8-c7c3528f2afa.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe3/1e04b3ec-5fa9-4677-aab0-7107ea8b52c0.jpeg",
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe3/3e763eca-5cca-4a1e-98e8-77a296504c40.jpeg",
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe3/0b8a2470-73cb-486e-b8a8-c7c3528f2afa.jpeg",
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe3/610627ca-cf64-4ebc-9c4f-1c9be2befe1f.jpeg"
     ],
     "shoesizes": [
@@ -63,10 +57,9 @@
       9,
       11
     ],
-    "designer": "Thom Browne",
+    "designer": "THOM BROWNE",
     "price": 110,
     "color": [
-      "Black Suede",
       "Sunflower"
     ],
     "itemtype": "shoe",
@@ -75,12 +68,9 @@
   {
     "productname": "Corlina Ankle Strap Sandal",
     "imageurl": [
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe4/01bae220-1930-4fc1-a3e4-42e67c5d82eb.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe4/0ad948c2-d18c-4e83-9777-dce4a59d2a08.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe4/0fc0a997-e0fb-400e-a953-69c5bc176ffa.jpeg",
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe4/192863f2-d8e3-41ea-ac01-ee78ae137cc7.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe4/37c71216-0542-4901-9a3a-49d90aca1ed6.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe4/b614ee07-027f-45f7-8fcc-fee6be566f47.jpeg"
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe4/01bae220-1930-4fc1-a3e4-42e67c5d82eb.jpeg",
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe4/37c71216-0542-4901-9a3a-49d90aca1ed6.jpeg"
     ],
     "shoesizes": [
       6,
@@ -90,11 +80,10 @@
       9,
       10
     ],
-    "designer": "Moschino",
+    "designer": "MOSCHINO",
     "price": 170,
     "color": [
-      "Metal Grey",
-      "Precious Suede"
+      "Metal Grey"
     ],
     "itemtype": "shoe",
     "description": "These trendy shoes are highly fashionable. Wearable at any occasion."
@@ -102,9 +91,9 @@
   {
     "productname": "Lindsay Sandal",
     "imageurl": [
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe5/ad8cb8a7-9d2d-4c4b-b452-125ef74ec9a4.jpeg",
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe5/5626ca99-a8e0-4395-9289-1ad251ec1972.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe5/9b8b21ac-9d28-4ce7-b0eb-511f771d1b92.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe5/ad8cb8a7-9d2d-4c4b-b452-125ef74ec9a4.jpeg"
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe5/9b8b21ac-9d28-4ce7-b0eb-511f771d1b92.jpeg"
     ],
     "shoesizes": [
       6,
@@ -113,7 +102,7 @@
       10.5,
       11
     ],
-    "designer": "Max Mara",
+    "designer": "MAX MARA",
     "price": 198,
     "color": [
       "Silver Satin"
@@ -135,7 +124,7 @@
       7.5,
       8
     ],
-    "designer": "ALice + Olivia",
+    "designer": "ALICE + OLIVIA",
     "price": 147,
     "color": [
       "Nat Raffia"
@@ -146,8 +135,8 @@
   {
     "productname": "Rockstud T-Strap Pump",
     "imageurl": [
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe7/4e0ba7ee-5193-4685-8ebe-d3fa394d416e.jpeg",
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe7/b9931f00-92ad-4636-afea-b8bdd8693188.jpeg",
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe7/4e0ba7ee-5193-4685-8ebe-d3fa394d416e.jpeg",
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/shoes/shoe7/d8c15e5f-0c6d-4768-8c1c-30a6f7526118.jpeg"
     ],
     "shoesizes": [
@@ -157,7 +146,7 @@
       9.5,
       10.5
     ],
-    "designer": "Gucci",
+    "designer": "GUCCI",
     "price": 169,
     "color": [
       "Black"
@@ -180,7 +169,7 @@
       9.5,
       10.5
     ],
-    "designer": "Burberry",
+    "designer": "BURBURRY",
     "price": 116,
     "color": [
       "Black"
@@ -193,7 +182,7 @@
     "imageurl": [
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/earrings/earring1.jpeg"
     ],
-    "designer": "Max Mara",
+    "designer": "MAX MARA",
     "price": 99,
     "color": [
       "Silver/Crystal"
@@ -206,7 +195,7 @@
     "imageurl": [
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/earrings/earring2.jpeg"
     ],
-    "designer": "Burberry",
+    "designer": "BURBURRY",
     "price": 71,
     "color": [
       "Gold"
@@ -219,7 +208,7 @@
     "imageurl": [
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/earrings/earring3.jpeg"
     ],
-    "designer": "Max Mara",
+    "designer": "MAX MARA",
     "price": 71,
     "color": [
       "Gold"
@@ -232,7 +221,7 @@
     "imageurl": [
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/earrings/earring4.jpeg"
     ],
-    "designer": "Gucci",
+    "designer": "GUCCI",
     "price": 46,
     "color": [
       "Silver"
@@ -245,7 +234,7 @@
     "imageurl": [
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/earrings/earring5.jpeg"
     ],
-    "designer": "Moschino",
+    "designer": "MOSCHINO",
     "price": 53,
     "color": [
       "Clear-Silver"
@@ -258,7 +247,7 @@
     "imageurl": [
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/earrings/earring6.jpeg"
     ],
-    "designer": "Moschino",
+    "designer": "MOSCHINO",
     "price": 92,
     "color": [
       "White Gold"
@@ -271,7 +260,7 @@
     "imageurl": [
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/earrings/earring7.jpeg"
     ],
-    "designer": "Givency",
+    "designer": "GIVENCY",
     "price": 68,
     "color": [
       "Aqua"
@@ -284,7 +273,7 @@
     "imageurl": [
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/earrings/earring8.jpeg"
     ],
-    "designer": "Theory",
+    "designer": "THEORY",
     "price": 73,
     "color": [
       "Gold"
@@ -293,11 +282,11 @@
     "description": "Oversized statement earrings made from gorgeous resin suspend gorgeous seashell-inspired shapes"
   },
   {
-    "productname": "Malika Earrings,",
+    "productname": "Malika Earrings",
     "imageurl": [
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/earrings/earring9.jpeg"
     ],
-    "designer": "Moschino",
+    "designer": "MOSCHINO",
     "price": 97,
     "color": [
       "Abalone Shell"
@@ -308,11 +297,11 @@
   {
     "productname": "Mingle Mingle Mini Embossed Leather Crossbody Bag",
     "imageurl": [
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse1/0484522c-9ae0-49bb-b6d9-51acc1a0538a.jpeg",
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse1/22e1e593-2021-4154-b01a-67e5beb57a79.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse1/d0eb145d-5aba-4530-b9d3-3b6e0bb04638.jpeg"
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse1/d0eb145d-5aba-4530-b9d3-3b6e0bb04638.jpeg",
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse1/0484522c-9ae0-49bb-b6d9-51acc1a0538a.jpeg"
     ],
-    "designer": "Max Mara",
+    "designer": "MAX MARA",
     "price": 577,
     "color": [
       "Silver"
@@ -323,10 +312,10 @@
   {
     "productname": "GG Leather Wallet on a Chain",
     "imageurl": [
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse2/499c41d4-babe-4cca-98b8-ecbcb257b946.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse2/fce8276c-4c83-472c-9e4f-e915005aa873.jpeg"
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse2/fce8276c-4c83-472c-9e4f-e915005aa873.jpeg",
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse2/499c41d4-babe-4cca-98b8-ecbcb257b946.jpeg"
     ],
-    "designer": "Theory",
+    "designer": "THEORY",
     "price": 479,
     "color": [
       "Black"
@@ -337,11 +326,11 @@
   {
     "productname": "Marmont 2.0 Leather Wallet on a Chain",
     "imageurl": [
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse3/13292131-a5a4-40d7-9aab-abc9c0042fd9.jpeg",
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse3/6a90fb60-2d28-4075-8a3c-a4372c398fb7.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse3/a3981dfd-5a1b-4c90-882b-172c1abdc771.jpeg"
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse3/a3981dfd-5a1b-4c90-882b-172c1abdc771.jpeg",
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse3/13292131-a5a4-40d7-9aab-abc9c0042fd9.jpeg"
     ],
-    "designer": "Alexander Wang",
+    "designer": "ALEXANDER WANG",
     "price": 779,
     "color": [
       "Porcelain Rose"
@@ -355,7 +344,7 @@
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse4/0d47d76d-e3fe-44de-9572-8f46492ec38a.jpeg",
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse4/f273f943-57ba-40fc-b289-fbb020db1418.jpeg"
     ],
-    "designer": "Gucci",
+    "designer": "GUCCI",
     "price": 968,
     "color": [
       "Beige Ebony"
@@ -366,11 +355,11 @@
   {
     "productname": "Ophidia GG Supreme Zip-Around Wallet",
     "imageurl": [
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse5/2c54c672-8145-49bd-98bd-030710dac69c.jpeg",
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse5/5aff6915-52f1-4868-8636-90678f786c2c.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse5/d3e98dd3-688e-445f-8b6c-b17e4c9af958.jpeg"
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse5/d3e98dd3-688e-445f-8b6c-b17e4c9af958.jpeg",
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse5/2c54c672-8145-49bd-98bd-030710dac69c.jpeg"
     ],
-    "designer": "Michael Kors",
+    "designer": "MICHAEL KORS",
     "price": 987,
     "color": [
       "Beige Ebony"
@@ -382,16 +371,12 @@
     "productname": "Megan Leather Crossbody Bag",
     "imageurl": [
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse6/07eb9795-d84c-49fc-a7fb-7cef9fe9761c.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse6/1ee89c6e-7c73-48c2-a8f3-43e7f8324ac8.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse6/9a95100a-9c43-40c9-a771-c3c904339652.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse6/ab9e9b31-cdc6-445e-99a7-941887dec18d.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse6/aeb7228c-7d2d-4820-8780-4b780bdb66e8.jpeg"
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse6/ab9e9b31-cdc6-445e-99a7-941887dec18d.jpeg"
     ],
-    "designer": "Alexander Wang",
+    "designer": "ALEXANDER WANG",
     "price": 466,
     "color": [
-      "Black",
-      "Ice Grey"
+      "Black"
     ],
     "itemtype": "purses",
     "description": "Star studded and outfitted with single rosette stone. The modern and cute design of this bag makes it extremely versatile."
@@ -399,11 +384,11 @@
   {
     "productname": "Top Transport Leather Crossbody Bag",
     "imageurl": [
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse7/24a11baa-fdc6-4ce6-998a-60af12e6d7b5.jpeg",
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse7/4cbb9360-f03e-4e23-94cb-9a4637462824.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse7/c0c72cf9-9a61-471e-81f4-1d8f88ca3c2e.jpeg"
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse7/c0c72cf9-9a61-471e-81f4-1d8f88ca3c2e.jpeg",
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse7/24a11baa-fdc6-4ce6-998a-60af12e6d7b5.jpeg"
     ],
-    "designer": "Givency",
+    "designer": "GIVENCY",
     "price": 855,
     "color": [
       "Light Blue"
@@ -414,12 +399,12 @@
   {
     "productname": "Super Mini Dionysus Leather Shoulder Bag",
     "imageurl": [
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse8/0c32c50c-bec0-4ffc-9d3e-9bc53da44b48.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse8/0f1059e5-71dc-4153-8815-11f92923c96a.jpeg",
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse8/89a0e424-5db9-4db0-a80d-0b22a4dc1563.jpeg",
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse8/58051413-9a96-4933-bea5-c7b55bd12bb6.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse8/89a0e424-5db9-4db0-a80d-0b22a4dc1563.jpeg"
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse8/0f1059e5-71dc-4153-8815-11f92923c96a.jpeg",
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse8/0c32c50c-bec0-4ffc-9d3e-9bc53da44b48.jpeg"
     ],
-    "designer": "Michael Kors",
+    "designer": "MICHAEL KORS",
     "price": 970,
     "color": [
       "Black Diamond"
@@ -430,15 +415,12 @@
   {
     "productname": "Soho Disco Leather Bag",
     "imageurl": [
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse9/64c9cf54-440c-49a6-ad0f-aac09fff2cd8.jpeg",
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse9/674f554d-425d-4141-8015-fa31c9508b4f.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse9/99023b88-ad17-423b-9410-b576c9bfd0c0.jpeg",
-      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse9/26a88068-215b-4642-8bde-0d2b860c1cce.jpeg"
+      "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse9/64c9cf54-440c-49a6-ad0f-aac09fff2cd8.jpeg"
     ],
-    "designer": "Theory",
+    "designer": "THEORY",
     "price": 977,
     "color": [
-      "Pink",
       "Blue"
     ],
     "itemtype": "purses",
@@ -447,7 +429,7 @@
   { 
     "productname": "idiom - heart of gold bangle",
     "imageurl": [ "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/bracelets/bracelete1.jpeg" ],
-    "designer": "Max Mara",
+    "designer": "MAX MARA",
     "price": 89,
     "color": [ "Gold" ],
     "itemtype": "bracelet",
@@ -456,7 +438,7 @@
   { 
     "productname": "Bar Pull Through Bracelet",
     "imageurl": [ "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/bracelets/bracelet9.jpeg" ],
-    "designer": "Thom Browne",
+    "designer": "THOM BROWNE",
     "price": 41,
     "color": [ "Gold" ],
     "itemtype": "bracelet",
@@ -464,7 +446,7 @@
   },
   { "productname": "Chantal Slide Bracelet",
     "imageurl": [ "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/bracelets/bracelet8.jpeg" ],
-    "designer": "Max Mara",
+    "designer": "MAX MARA",
     "price": 88,
     "color": [ "Bright Silver Metal" ],
     "itemtype": "bracelet",
@@ -472,7 +454,7 @@
   },
   { "productname": "Tulle Cubic Zirconia Slide Bracelet",
     "imageurl": [ "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/bracelets/bracelet7.jpeg" ],
-    "designer": "Theory",
+    "designer": "THEORY",
     "price": 59,
     "color": [ "Silver" ],
     "itemtype": "bracelet",
@@ -480,7 +462,7 @@
   },
   { "productname": "Crystal hinge bangle",
     "imageurl": [ "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/bracelets/bracelet6.jpeg" ],
-    "designer": "Moschino",
+    "designer": "MOSCHINO",
     "price": 41,
     "color": [ "Silver" ],
     "itemtype": "bracelet",
@@ -488,7 +470,7 @@
   },
   { "productname": "Caviar Icon Stretch Bead Bracelet",
     "imageurl": [ "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/bracelets/bracelet5.jpeg" ],
-    "designer": "Alexander Wang",
+    "designer": "ALEXANDER WANG",
     "price": 68,
     "color": [ "Silver/Lapis" ],
     "itemtype": "bracelet",
@@ -496,7 +478,7 @@
   },
   { "productname": "Pavé Bar Bracelet",
     "imageurl": [ "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/bracelets/bracelet4.jpeg" ],
-    "designer": "Michael Kors",
+    "designer": "MICHAEL KORS",
     "price": 43,
     "color": [ "Clear-Silver" ],
     "itemtype": "bracelet",
@@ -504,7 +486,7 @@
   },
   { "productname": "2019 Graduation Cap Charm Expandable Bracelet",
     "imageurl": [ "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/bracelets/bracelet3.jpeg" ],
-    "designer": "ALice + Olivia",
+    "designer": "ALICE + OLIVIA",
     "price": 44,
     "color": [ "Gold" ],
     "itemtype": "bracelet",
@@ -512,7 +494,7 @@
   },
   { "productname": "Cable Classics Bracelet with 18K Gold, 4mm",
     "imageurl": [ "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/bracelets/bracelet2.jpeg" ],
-    "designer": "Michael Kors",
+    "designer": "MICHAEL KORS",
     "price": 60,
     "color": [ "Two Tone" ],
     "itemtype": "bracelet",
@@ -521,7 +503,7 @@
   { "productname": "Dot Cascade Ruffle Sleeveless Dress",
     "imageurl": [ "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/dresses/dress1.jpeg",
     "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/dresses/dress12.jpeg" ],
-    "designer": "Givency",
+    "designer": "GIVENCY",
     "clothingsizes": ["X-Small", "Medium", "Large"],
     "price": 176,
     "color": [ "Black" ],

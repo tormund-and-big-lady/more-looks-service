@@ -5,8 +5,14 @@ class ShoeModal extends React.Component {
   constructor(props) {
     super (props);
     this.state = {
-
+      sizes: '',
     }
+  }
+
+  showSizes() {
+    this.setState({
+      sizes: true,
+    })
   }
 
   render() {
@@ -50,16 +56,29 @@ class ShoeModal extends React.Component {
                 </div>
 
                 <div className={style.sizeContainer}>
-                  <div className={style.sizeInput}>
-                    <div onClick={this.showSizes} className={style.size} >
-                      Size <img className={style.carrot} src="svgcarrot.svg"/>
-
-                      <div className={style[`showSize${this.state.sizes}`]}>
-                        
+                    <div onClick={this.showSizes}>
+                      <div className={style.size}>Size
+                        <span className={style.bottomBorder}></span>
                       </div>
 
                     </div>
-                  </div>
+                </div>
+
+                <div className={style[`optiontags${this.state.sizes}`]}>
+                        <div className={style.chooseSizeContainer}>
+                            <div className={style.chooseSize}>Choose a size. </div>
+                          <div className={style.trueToSize}> True to size. </div>
+                        </div>
+
+                        <div className={style.availableSizesContainer}> 
+                          {this.props.shoe.shoesizes.map(size => {
+                            return <div className={style.availableSizes}>
+                                      {size}
+                                      <span className={style.sizeBottomBorder}></span>
+                                  </div>
+                          })}
+                        </div> 
+
                 </div>
 
                 <div className={style.sizeGuide}> Size guides.</div>

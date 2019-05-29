@@ -1,14 +1,24 @@
+@font-face {
+    font-family: 'Brandon Text';
+    src: url(../../dist/brandon-text.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .componentContainer {
     display: flex;
     flex-direction: row;
     flex: 1;
+    font-family: 'Brandon Text';
 }
 
 .box {
     border: 1px solid #e3e3e3;
     padding: 15px;
-    height: 700px;
+    height: 730px;
     width: 430px;
+    margin-bottom: 10%;
+    
 }
 
 .modernOfficeWrapper {
@@ -19,11 +29,13 @@
 .modernOfficeDiv {
     padding-top: 10px;
     padding-bottom: 20px;
+    font-size: 17px;
 }
 
 .nordstromLink {
     text-align: center;
     color: #393939;
+    font-size: 13px;
 }
 a:visited {
     color: #393939;
@@ -47,25 +59,30 @@ a:visited {
 .earringItem {
     margin-top: 20px;
     margin-bottom: 40px;
+    font-size: 13px;
 }
 
 .braceletItem {
     margin-top: 40px;
+    font-size: 13px;
 }
 
 .dressItem {
     margin-top: 20px;
     margin-bottom: 100px;
+    font-size: 13px;
 }
 
 .purseItem {
     margin-top: 50px;
+    font-size: 13px;
 }
 
 
 .shoeItem {
     margin-top: 80px;
-    margin-bottom: 100px;
+    margin-bottom: 20%;
+    font-size: 13px;
 }
 
 .svgHeart {
@@ -77,12 +94,14 @@ a:visited {
 .randomLikes {
     padding-left: 60%;
     color: #393939;
+    font-size: 13px;
 }
 
 .designerName {
     margin-top: 10%;
     text-align: center;
     color: #393939;
+    font-size: 14px;
 }
 
 .secondComponentfalse {
@@ -94,7 +113,3 @@ a:visited {
     flex: 2;
 }
 
-.DressModalfalse {
-  /* visibility: hidden; */
-  /* display: none; */
-}

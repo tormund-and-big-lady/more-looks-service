@@ -16,7 +16,6 @@ class DressModal extends React.Component {
     })
   }
 
-
   render() {
     if (this.props.dress.imageurl === undefined) {
       return (
@@ -58,21 +57,43 @@ class DressModal extends React.Component {
                 </div>
 
                 <div className={style.sizeContainer}>
-                  <div className={style.sizeInput}>
-                    <div onClick={this.showSizes} className={style.size} >
-                      Size <img className={style.carrot} src="svgcarrot.svg"/>
-
-                      <div className={style[`showSize${this.state.sizes}`]}>
-                        
+                    <div onClick={this.showSizes}>
+                      <div className={style.size}>Size
+                        <span className={style.bottomBorder}></span>
                       </div>
 
                     </div>
-                  </div>
                 </div>
 
-                <div className={style.sizeGuide}> Size guides.</div>
+                <div className={style[`optiontags${this.state.sizes}`]}>
+                        <div className={style.chooseSizeContainer}>
+                            <div className={style.chooseSize}>Choose a size. </div>
+                          <div className={style.trueToSize}> True to size. XS=00, S=0-2, M=4-6, L=8-10, XL=12.</div>
+                        </div>
 
-                {/* <div className={style.colors}>
+                        <div className={style.availableSizesContainer}> 
+                          {this.props.dress.clothingsizes.map(size => {
+                            return <div className={style.availableSizes}>
+                                      {size}
+                                      <span className={style.sizeBottomBorder}></span>
+                                  </div>
+                          })}
+                        </div> 
+
+                </div>
+                <div className={style.sizeGuide}> Size guides.</div>
+                {/* <div className={style.colorsContainer}>
+                  <div className={style.colorDropdown} >
+                    <span className={style.colorFont}> Color 
+                      <img className={style.carrot} src="svgcarrot.svg"/>
+                    </span>
+                  </div>
+                  
+
+                  <div className={style.colorImg} >
+                    <img className={style.colors} src="https://n.nordstrommedia.com/id/sr3/336eea0a-e8f1-4443-a035-e8c915a904f5.jpeg?crop=fit&w=31&h=31" />
+                    <img className={style.colors} src="https://n.nordstrommedia.com/id/sr3/c1b59b6b-f0a9-4a55-b673-d048e773fe9c.jpeg?crop=fit&w=31&h=31" />
+                  </div>
                 </div> */}
 
                 <div className={style.addBag}>
@@ -84,8 +105,7 @@ class DressModal extends React.Component {
                 </div>
 
               </div>
-
-            </div>
+              </div>
           </div>
         </div>
       )
