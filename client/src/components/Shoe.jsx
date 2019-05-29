@@ -24,7 +24,7 @@ class Shoe extends React.Component {
     } else {
       this.setState({
         index: this.state.index-=1,
-      }, () => console.log(this.state.index))
+      })
     }
   }
 
@@ -36,7 +36,7 @@ class Shoe extends React.Component {
     } else {
       this.setState({
         index: this.state.index+=1,
-      }, () => console.log(this.state.index))
+      })
     }
   }
 
@@ -44,14 +44,14 @@ class Shoe extends React.Component {
     this.setState({
       backButton: true,
       forwardButton: true,
-    }, () => console.log('showing'))
+    })
   }
 
   hideArrows() {
     this.setState({
       backButton: '',
       forwardButton: '',
-    }, () => console.log('hiding'))
+    })
   }
 
   render() {

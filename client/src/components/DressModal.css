@@ -199,7 +199,9 @@
 
 .detailsContainer {
   text-align: center;
-  padding-top: 30%;
+  padding-top: 10%;
   margin-bottom: 10%;
   font-size: 13px;
+  position: relative;
+
 }

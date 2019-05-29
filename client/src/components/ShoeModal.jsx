@@ -7,6 +7,7 @@ class ShoeModal extends React.Component {
     this.state = {
       sizes: '',
     }
+    this.showSizes = this.showSizes.bind(this);
   }
 
   showSizes() {
@@ -86,13 +87,13 @@ class ShoeModal extends React.Component {
                 {/* <div className={style.colors}>
                 </div> */}
 
-                <div className={style.addBag}>
-                  <button className={style.addToBag}>Add to bag</button>
+                {/* <div className={style.addBag}>
+                  <div className={style.addToBag}>Add to bag</div>
 
                   <div className={style.detailsContainer}>
                     <a href="#" className={style.details}> See full details</a>
                   </div>
-                </div>
+                </div> */}
 
               </div>
 
