@@ -14,12 +14,12 @@
 
 .image {
   margin-top: 20%;
-  margin-left: 15%;
+  padding-left: 20%;
 }
 
 .secondComponent {
   width: 600px;
-  padding-left: 10%;
+  padding-left: 20%;
   padding-top: 10%;
 }
 

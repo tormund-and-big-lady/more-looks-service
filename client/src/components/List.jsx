@@ -35,8 +35,9 @@ class List extends React.Component {
     this.showShoeModal = this.showShoeModal.bind(this);
     this.stars = this.stars.bind(this);
     this.likes = this.likes.bind(this);
-    // this.randomOutfitNames = this.randomOutfitNames.bind(this);
+    this.randomOutfitNames = this.randomOutfitNames.bind(this);
   }
+
 
   likes() {
     let num = Math.floor(Math.random() * 10)
@@ -48,23 +49,24 @@ class List extends React.Component {
     }
   }
 
-  // randomOutfitNames() {
-  //   let outfitNames = [
-  //     'MODERN OFFICE LOOK',
-  //     'VACATION READY',
-  //     'SUMMER FUN',
-  //     'STEPPING OUT',
-  //     'DATE NIGHT WINNER'
-  //   ]
+  randomOutfitNames() {
+    let outfitNames = [
+      'MODERN OFFICE LOOK',
+      'VACATION READY',
+      'SUMMER FUN',
+      'STEPPING OUT',
+      'DATE NIGHT WINNER'
+    ]
 
-  //   let randomIndex = Math.floor(Math.random() * 5)
+    let randomIndex = Math.floor(Math.random() * 5)
+    let name = outfitNames[randomIndex];
     
-  //   if (this.state.outfitname === false) {
-  //     this.setState({
-  //       outfitnames: outfitNames[randomIndex]
-  //     })
-  //   }
-  // }
+    if (this.state.outfitname === false) {
+      this.setState({
+        outfitname: name,
+      })
+    }
+  }
 
   stars() {
     let arr = [
@@ -172,7 +174,7 @@ class List extends React.Component {
             <div className={style.firstComponent}>
               <div className={style.box}>
                 <div className={style.modernOfficeWrapper}>
-                  {/* <div className={style.modernOfficeDiv}>{this.randomOutfitNames()}</div> */}
+                  <div className={style.modernOfficeDiv}>{this.state.outfitname}hello</div>
                   <a href="#" className={style.nodstromLink}>nordstrom</a>
                   <hr className={style.line}></hr>
                 </div>
