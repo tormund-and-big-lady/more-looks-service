@@ -38,21 +38,19 @@
   font-size: 19px;
   font-weight: 400;
   margin-bottom: 2%;
+  max-width: 330px;
 }
 
 
 .designer {
   color: #393939;
   font-size: 13px;
-  border-bottom: 2px solid white;
-  /* width:30%; */
-  
+  border-bottom: 2px solid white;  
 }
 
 .designer:hover {
   cursor: pointer;
-  border-bottom-color: #393939;
-  /* width:20%; */
+  text-decoration: underline;
 }
 
 .price {
@@ -70,9 +68,10 @@
 
 .description {
   margin-top: 5%;
-  margin-bottom: 15%;
+  margin-bottom: 5%;
   width: 350px;
   font-size: 13px;
+  max-width: 330px;
 }
 
 .addToBag {

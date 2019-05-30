@@ -6,6 +6,7 @@ class DressModal extends React.Component {
     super(props);
     this.state = {
       sizes: '',
+      collapse: '',
     }
     this.showSizes = this.showSizes.bind(this);
     this.collapse = this.collapse.bind(this);
@@ -14,11 +15,15 @@ class DressModal extends React.Component {
   showSizes() {
     this.setState({
       sizes: true,
+      collapse: '',
     })
   }
 
-  collapse(e) {
-    
+  collapse() {
+    this.setState({
+      sizes: false,
+      collapse: false,
+    })
   }
 
   render() {
@@ -44,6 +49,8 @@ class DressModal extends React.Component {
                 {this.props.stars().map(rating => {
                   return <span>{rating}</span>
                 })}
+
+                <span className={style.randomLikes}> ({this.props.likes()})</span>
 
                 <div className={style.productName}>
                   {this.props.dress.productname}
@@ -71,14 +78,14 @@ class DressModal extends React.Component {
                 </div>
 
                 <div className={style[`optiontags${this.state.sizes}`]}>
-                        <div className={style.chooseSizeContainer}>
+                        <div className={style[`chooseSizeContainer${this.state.collapse}`]}>
                             <div className={style.chooseSize}>Choose a size. </div>
-                          <div className={style.trueToSize}> True to size. XS=00, S=0-2, M=4-6, L=8-10, XL=12.</div>
+                          <div className={style[`trueToSize${this.state.collapse}`]}> True to size. XS=00, S=0-2, M=4-6, L=8-10, XL=12.</div>
                         </div>
 
-                        <div className={style.availableSizesContainer}> 
+                        <div className={style[`availableSizesContainer${this.state.collapse}`]}> 
                           {this.props.dress.clothingsizes.map(size => {
-                            return <div className={style.availableSizes} onClick={this.collapse}>
+                            return <div className={style[`availableSizes${this.state.collapse}`]} onClick={this.collapse}>
                                       {size}
                                       <span className={style.sizeBottomBorder}></span>
                                   </div>
@@ -87,19 +94,6 @@ class DressModal extends React.Component {
 
                 </div>
                 <div className={style.sizeGuide}> Size guides.</div>
-                {/* <div className={style.colorsContainer}>
-                  <div className={style.colorDropdown} >
-                    <span className={style.colorFont}> Color 
-                      <img className={style.carrot} src="svgcarrot.svg"/>
-                    </span>
-                  </div>
-                  
-
-                  <div className={style.colorImg} >
-                    <img className={style.colors} src="https://n.nordstrommedia.com/id/sr3/336eea0a-e8f1-4443-a035-e8c915a904f5.jpeg?crop=fit&w=31&h=31" />
-                    <img className={style.colors} src="https://n.nordstrommedia.com/id/sr3/c1b59b6b-f0a9-4a55-b673-d048e773fe9c.jpeg?crop=fit&w=31&h=31" />
-                  </div>
-                </div> */}
 
                 <div className={style.addBag}>
                   <div className={style.addToBag}>Add to bag</div>

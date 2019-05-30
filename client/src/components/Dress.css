@@ -21,7 +21,7 @@
 }
 
 .dressImage {
-  object-fit: cover;
+  object-fit: fill;
   max-width: 100%;
   max-height: 100%;
   margin-top: 50%;

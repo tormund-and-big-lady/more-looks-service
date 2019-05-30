@@ -38,12 +38,7 @@ class BraceletModal extends React.Component {
                 {this.props.bracelet.description}
               </div>
 
-              {/* <div className={style.color}>
-              </div> */}
-
-              <div className={style.addBag}>
                 <button className={style.addToBag}>Add to bag</button>
-              </div>
 
               <div className={style.detailsContainer}>
                 <a href="#" className={style.details}> See full details</a>

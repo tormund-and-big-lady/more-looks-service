@@ -23,6 +23,8 @@ class List extends React.Component {
       pursemodal: false,
       shoemodal: false,
     }
+    this.randomOutfitNames = this.randomOutfitNames.bind(this);
+    // this.randomReviewCount = this.randomReviewCount.bind(this);
     this.showEarringModal = this.showEarringModal.bind(this);
     this.showBraceletModal = this.showBraceletModal.bind(this);
     this.showDressModal = this.showDressModal.bind(this);
@@ -30,6 +32,24 @@ class List extends React.Component {
     this.showShoeModal = this.showShoeModal.bind(this);
     this.stars = this.stars.bind(this);
   }
+
+  randomOutfitNames() {
+    let outfitNames = [
+      'MODERN OFFICE LOOK',
+      'VACATION READY',
+      'SUMMER FUN',
+      'STEPPING OUT',
+      'DATE NIGHT WINNER'
+    ]
+
+    let randomIndex = Math.floor(Math.random() * 5)
+    return outfitNames[randomIndex];
+  }
+
+  // randomReviewCount() {
+  //   let numbers = [1,2,3,4,5,6,7]
+  //   return Math.floor(Math.random() * )
+  // }
 
   stars() {
     let arr = [
@@ -123,7 +143,7 @@ class List extends React.Component {
             <div className={style.firstComponent}>
               <div className={style.box}>
                 <div className={style.modernOfficeWrapper}>
-                  <div className={style.modernOfficeDiv}>MODERN OFFICE LOOK</div>
+                  <div className={style.modernOfficeDiv}>{this.randomOutfitNames()}</div>
                   <a href="#" className={style.nodstromLink}>nordstrom</a>
                   <hr className={style.line}></hr>
                 </div>
@@ -154,11 +174,11 @@ class List extends React.Component {
             </div>
 
             <div className={style.secondComponent}>
-                <DressModal dress={this.props.dress} modal={this.state.dressmodal} stars={this.stars}/>
+                <DressModal dress={this.props.dress} modal={this.state.dressmodal} stars={this.stars} likes={this.props.randomLikes}/>
                 <BraceletModal bracelet={this.props.bracelet} modal={this.state.braceletmodal}/>
                 <EarringModal earring={this.props.earring} modal={this.state.earringmodal}/>
                 <PurseModal purse={this.props.purse} modal={this.state.pursemodal} />
-                <ShoeModal shoe={this.props.shoe} modal={this.state.shoemodal} stars={this.stars} />
+                <ShoeModal shoe={this.props.shoe} modal={this.state.shoemodal} stars={this.stars} likes={this.props.randomLikes}/>
             </div>
 
           </div>
