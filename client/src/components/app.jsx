@@ -89,6 +89,8 @@ class App extends React.Component {
           </div>
           <List purse={this.state.purse} shoe={this.state.shoe} earring={this.state.earring} bracelet={this.state.bracelet} dress={this.state.dress} randomLikes={this.randomLikes}/>
         </div>
+        <img className={style.image1} src="https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/image1.png" height="100%" width="100%"/>
+        <img src="https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/image2.jpeg" height="100%" width="100%"/>
       </div>
     )
   }

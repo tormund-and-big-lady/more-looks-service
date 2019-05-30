@@ -14,6 +14,7 @@ class Shoe extends React.Component {
     this.increaseIndex = this.increaseIndex.bind(this);
     this.showArrows = this.showArrows.bind(this);
     this.hideArrows = this.hideArrows.bind(this);
+    // this.showratings = this.showratings.bind(this);
   }
 
   decreaseIndex() {

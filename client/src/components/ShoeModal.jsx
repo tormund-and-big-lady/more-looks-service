@@ -34,6 +34,7 @@ class ShoeModal extends React.Component {
         </div>
       )
     } else {
+      // console.log(this.props.stars)
       return (
         <div>
           <div className={style[`componentContainer${this.props.modal}`]} >
@@ -46,9 +47,11 @@ class ShoeModal extends React.Component {
 
 
               <div className={style.secondComponent}>
-                {this.props.stars().map(rating => {
+                {this.props.stars.map(rating => {
                   return <span>{rating}</span>
                 })}
+
+                <span className={style.randomLikes}> ({this.props.likes})</span>
 
                 <div className={style.productName}>
                   {this.props.shoe.productname}
@@ -76,36 +79,36 @@ class ShoeModal extends React.Component {
                 </div>
 
                 <div className={style[`optiontags${this.state.sizes}`]}>
-                        <div className={style[`chooseSizeContainer${this.state.collapse}`]}>
-                  <div className={style.chooseSize}>Choose a size. </div>
-                  <div className={style[`trueToSize${this.state.collapse}`]}> True to size. XS=00, S=0-2, M=4-6, L=8-10, XL=12.</div>
+                  <div className={style[`chooseSizeContainer${this.state.collapse}`]}>
+                    <div className={style.chooseSize}>Choose a size. </div>
+                    <div className={style[`trueToSize${this.state.collapse}`]}> True to size. XS=00, S=0-2, M=4-6, L=8-10, XL=12.</div>
+                  </div>
+
+                  <div className={style[`availableSizesContainer${this.state.collapse}`]}>
+                    {this.props.shoe.shoesizes.map(size => {
+                      return <div className={style[`availableSizes${this.state.collapse}`]} onClick={this.collapse}>
+                        {size}
+                        <span className={style.sizeBottomBorder}></span>
+                      </div>
+                    })}
+                  </div>
+
+
                 </div>
 
-                <div className={style[`availableSizesContainer${this.state.collapse}`]}>
-                  {this.props.shoe.shoesizes.map(size => {
-                    return <div className={style[`availableSizes${this.state.collapse}`]} onClick={this.collapse}>
-                      {size}
-                      <span className={style.sizeBottomBorder}></span>
-                    </div>
-                  })}
+                <div className={style.sizeGuide}> Size guides.</div>
+                <div className={style.addBag}>
+                  <div className={style.addToBag}>Add to bag</div>
+
+                  <div className={style.detailsContainer}>
+                    <a href="#" className={style.details}> See full details</a>
+                  </div>
                 </div>
 
-
-              </div>
-
-              <div className={style.sizeGuide}> Size guides.</div>
-              <div className={style.addBag}>
-                <div className={style.addToBag}>Add to bag</div>
-
-                <div className={style.detailsContainer}>
-                  <a href="#" className={style.details}> See full details</a>
-                </div>
               </div>
 
             </div>
-
           </div>
-        </div>
         </div >
       )
     }

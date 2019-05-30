@@ -46,11 +46,11 @@ class DressModal extends React.Component {
 
 
               <div className={style.secondComponent}>
-                {this.props.stars().map(rating => {
+                {this.props.stars.map(rating => {
                   return <span>{rating}</span>
                 })}
 
-                <span className={style.randomLikes}> ({this.props.likes()})</span>
+                <span className={style.randomLikes}> ({this.props.likes})</span>
 
                 <div className={style.productName}>
                   {this.props.dress.productname}
