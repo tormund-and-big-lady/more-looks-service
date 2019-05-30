@@ -32,7 +32,7 @@ class App extends React.Component {
 
   getDress() {
     axios
-      .get('/api/api/dress')
+      .get('/morelooks/api/dress')
       .then(data => this.setState({
         dress: data.data
       }))
@@ -41,7 +41,7 @@ class App extends React.Component {
 
   getShoe() {
     axios
-      .get(`/api/api/shoes`)
+      .get(`/morelooks/api/shoes`)
       .then(data => this.setState({
         shoe: data.data
       }))
@@ -50,7 +50,7 @@ class App extends React.Component {
 
   getPurse() {
     axios
-      .get('/api/api/purses')
+      .get('/morelooks/api/purses')
       .then(data => this.setState({
         purse: data.data
       }))
@@ -59,7 +59,7 @@ class App extends React.Component {
 
   getEarring() {
     axios
-      .get('/api/api/earrings')
+      .get('/morelooks/api/earrings')
       .then(data => this.setState({
         earring: data.data
       }))
@@ -68,7 +68,7 @@ class App extends React.Component {
 
   getBracelet() {
     axios
-      .get('/api/api/bracelets')
+      .get('/morelooks/api/bracelets')
       .then(data => this.setState({
         bracelet: data.data
       }))

@@ -65,7 +65,8 @@
 }
 
 .sizeContainer {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
+  position: relative;
 }
 
 .size {
@@ -100,14 +101,13 @@
 
 .optiontagstrue{
   display: inline-block;
-  margin-bottom: 15%;
+  /* margin-bottom: 15%; */
   font-size: 13px;
   box-shadow: 0 0 3px #e3e3e3;
-  top: -100px;
+  top: -53px;
   position: relative;
   background-color: #fff;
   width: 330px;
-  /* padding-left: 20px; */
 } 
 
 .chooseSizeContainer {
@@ -132,6 +132,9 @@
   max-height: 166px;
   width: 100%;
   overflow-y: scroll;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
 }
 
 .availableSizes:hover .sizeBottomBorder {
@@ -164,32 +167,32 @@
 } */
 
 .sizeGuide {
-  /* margin-top: 50%; */
-  margin-left: 73%;
-  border-bottom: 1px solid #393939;
   margin-bottom: 10px;
   font-size: 13px;
-  cursor: pointer;
-  position: absolute;
+  padding-left:260px;
+  padding-bottom:10px;
+  text-decoration:underline;
+
 }
 
 .addToBag {
   cursor: pointer;
   color: white;
   background-color: black;
-  padding: 12px 135px;
+  padding: 12px 1px;
+  font-size: 13px;
+  text-align: center;
   position: static;
 }
 
 .addToBag:hover {
-  background: #333;
+  background-color: #333;
 }
 
 .colors {
   cursor: pointer;
   border-radius: 50%;
   border: 3px solid #fff;
-  /* box-shadow: 0 0 0 1px #e3e3e3; */
   margin-left: 5%;
 }
 
@@ -199,9 +202,12 @@
 
 .detailsContainer {
   text-align: center;
-  padding-top: 10%;
+  padding-top: 20%;
   margin-bottom: 10%;
   font-size: 13px;
-  position: relative;
+}
 
+.details {
+  text-align: center;
+  position: relative;
 }

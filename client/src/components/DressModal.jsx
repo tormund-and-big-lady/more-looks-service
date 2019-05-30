@@ -8,12 +8,17 @@ class DressModal extends React.Component {
       sizes: '',
     }
     this.showSizes = this.showSizes.bind(this);
+    this.collapse = this.collapse.bind(this);
   }
 
   showSizes() {
     this.setState({
       sizes: true,
     })
+  }
+
+  collapse(e) {
+    
   }
 
   render() {
@@ -73,7 +78,7 @@ class DressModal extends React.Component {
 
                         <div className={style.availableSizesContainer}> 
                           {this.props.dress.clothingsizes.map(size => {
-                            return <div className={style.availableSizes}>
+                            return <div className={style.availableSizes} onClick={this.collapse}>
                                       {size}
                                       <span className={style.sizeBottomBorder}></span>
                                   </div>
@@ -97,7 +102,7 @@ class DressModal extends React.Component {
                 </div> */}
 
                 <div className={style.addBag}>
-                  <button className={style.addToBag}>Add to bag</button>
+                  <div className={style.addToBag}>Add to bag</div>
 
                   <div className={style.detailsContainer}>
                     <a href="#" className={style.details}> See full details</a>

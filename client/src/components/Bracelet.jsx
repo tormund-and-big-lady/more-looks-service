@@ -9,9 +9,6 @@ const Bracelet = (props) => {
   } else {
     return (
       <div>
-        <div className={style.designer}>
-          {props.bracelet.designer}
-        </div>
         <img src={props.bracelet.imageurl[0]} height="150px" width="100px" />
         <div className={style.braceletPrice}>${props.bracelet.price} </div>
       </div>
