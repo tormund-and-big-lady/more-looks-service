@@ -32,6 +32,10 @@
   top: 50%;
 }
 
+.svgForwardButton {
+  transform: rotate(180deg);
+}
+
 .shoeImage {
   height: 70%;
   width: 70%;

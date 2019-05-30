@@ -86,8 +86,9 @@ a:visited {
 }
 
 .svgHeart {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-right: 15px;
+    padding-left: 10px;
     color: #393939;
 }
 

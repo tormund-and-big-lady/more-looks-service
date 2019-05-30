@@ -10,6 +10,7 @@ import EarringModal from './EarringModal.jsx';
 import PurseModal from './PurseModal.jsx';
 import ShoeModal from './ShoeModal.jsx';
 import style from './List.css';
+// import image1 from '../../dist/image1.png';
 
 
 
@@ -22,9 +23,11 @@ class List extends React.Component {
       dressmodal: false,
       pursemodal: false,
       shoemodal: false,
+      star: false,
+      reviewnumber: false,
+      outfitname: false,
     }
     this.randomOutfitNames = this.randomOutfitNames.bind(this);
-    // this.randomReviewCount = this.randomReviewCount.bind(this);
     this.showEarringModal = this.showEarringModal.bind(this);
     this.showBraceletModal = this.showBraceletModal.bind(this);
     this.showDressModal = this.showDressModal.bind(this);
@@ -46,33 +49,31 @@ class List extends React.Component {
     return outfitNames[randomIndex];
   }
 
-  // randomReviewCount() {
-  //   let numbers = [1,2,3,4,5,6,7]
-  //   return Math.floor(Math.random() * )
-  // }
-
   stars() {
+    this.setState({
+      
+    })
     let arr = [
       [
-        <img className={style.star} src="svgstarnoshade.svg" />,
-        <img className={style.star} src="svgstarnoshade.svg" />,
-        <img className={style.star} src="svgstarnoshade.svg" />,
-        <img className={style.star} src="svgstarnoshade.svg" />,
-        <img className={style.star} src="svgstarnoshade.svg" />,
+        <svg xmlns="http://www.w3.org/2000/svg" focusable="false" height="16" width="16" class="nui-icon nui-icon-medium-star-full Z1syfzr"><path class="nui-icon-medium-star-full-0" d="M7.997 1.5l1.654 4.965H15l-4.328 3.069 1.651 4.966-4.326-3.07-4.325 3.07 1.651-4.966L1 6.465h5.346z" stroke="#e3e3e3" fill="#e3e3e3" stroke-width="1px"></path></svg>,
+        <svg xmlns="http://www.w3.org/2000/svg" focusable="false" height="16" width="16" class="nui-icon nui-icon-medium-star-full Z1syfzr"><path class="nui-icon-medium-star-full-0" d="M7.997 1.5l1.654 4.965H15l-4.328 3.069 1.651 4.966-4.326-3.07-4.325 3.07 1.651-4.966L1 6.465h5.346z" stroke="#e3e3e3" fill="#e3e3e3" stroke-width="1px"></path></svg>,
+        <svg xmlns="http://www.w3.org/2000/svg" focusable="false" height="16" width="16" class="nui-icon nui-icon-medium-star-full Z1syfzr"><path class="nui-icon-medium-star-full-0" d="M7.997 1.5l1.654 4.965H15l-4.328 3.069 1.651 4.966-4.326-3.07-4.325 3.07 1.651-4.966L1 6.465h5.346z" stroke="#e3e3e3" fill="#e3e3e3" stroke-width="1px"></path></svg>,
+        <svg xmlns="http://www.w3.org/2000/svg" focusable="false" height="16" width="16" class="nui-icon nui-icon-medium-star-full Z1syfzr"><path class="nui-icon-medium-star-full-0" d="M7.997 1.5l1.654 4.965H15l-4.328 3.069 1.651 4.966-4.326-3.07-4.325 3.07 1.651-4.966L1 6.465h5.346z" stroke="#e3e3e3" fill="#e3e3e3" stroke-width="1px"></path></svg>,
+        <svg xmlns="http://www.w3.org/2000/svg" focusable="false" height="16" width="16" class="nui-icon nui-icon-medium-star-full Z1syfzr"><path class="nui-icon-medium-star-full-0" d="M7.997 1.5l1.654 4.965H15l-4.328 3.069 1.651 4.966-4.326-3.07-4.325 3.07 1.651-4.966L1 6.465h5.346z" stroke="#e3e3e3" fill="#e3e3e3" stroke-width="1px"></path></svg>
       ],
       [
-        <img className={style.star} src="svgexportstar.svg" />,
-        <img className={style.star} src="svgexportstar.svg" />,
-        <img className={style.star} src="svgexportstar.svg" />,
-        <img className={style.star} src="svgstarnoshade.svg" />,
-        <img className={style.star} src="svgstarnoshade.svg" />,
+        <svg xmlns="http://www.w3.org/2000/svg" focusable="false" height="16" width="16" class="nui-icon nui-icon-medium-star-full Z15Hx1O"><path class="nui-icon-medium-star-full-0" d="M7.997 1.5l1.654 4.965H15l-4.328 3.069 1.651 4.966-4.326-3.07-4.325 3.07 1.651-4.966L1 6.465h5.346z" stroke="#000000" fill="#000000" stroke-width="1px"></path></svg>,
+        <svg xmlns="http://www.w3.org/2000/svg" focusable="false" height="16" width="16" class="nui-icon nui-icon-medium-star-full Z15Hx1O"><path class="nui-icon-medium-star-full-0" d="M7.997 1.5l1.654 4.965H15l-4.328 3.069 1.651 4.966-4.326-3.07-4.325 3.07 1.651-4.966L1 6.465h5.346z" stroke="#000000" fill="#000000" stroke-width="1px"></path></svg>,
+        <svg xmlns="http://www.w3.org/2000/svg" focusable="false" height="16" width="16" class="nui-icon nui-icon-medium-star-full Z15Hx1O"><path class="nui-icon-medium-star-full-0" d="M7.997 1.5l1.654 4.965H15l-4.328 3.069 1.651 4.966-4.326-3.07-4.325 3.07 1.651-4.966L1 6.465h5.346z" stroke="#000000" fill="#000000" stroke-width="1px"></path></svg>,
+        <svg xmlns="http://www.w3.org/2000/svg" focusable="false" height="16" width="16" class="nui-icon nui-icon-medium-star-full Z1syfzr"><path class="nui-icon-medium-star-full-0" d="M7.997 1.5l1.654 4.965H15l-4.328 3.069 1.651 4.966-4.326-3.07-4.325 3.07 1.651-4.966L1 6.465h5.346z" stroke="#e3e3e3" fill="#e3e3e3" stroke-width="1px"></path></svg>,
+        <svg xmlns="http://www.w3.org/2000/svg" focusable="false" height="16" width="16" class="nui-icon nui-icon-medium-star-full Z1syfzr"><path class="nui-icon-medium-star-full-0" d="M7.997 1.5l1.654 4.965H15l-4.328 3.069 1.651 4.966-4.326-3.07-4.325 3.07 1.651-4.966L1 6.465h5.346z" stroke="#e3e3e3" fill="#e3e3e3" stroke-width="1px"></path></svg>
       ],
       [
-        <img className={style.star} src="svgexportstar.svg" />,
-        <img className={style.star} src="svgexportstar.svg" />,
-        <img className={style.star} src="svgexportstar.svg" />,
-        <img className={style.star} src="svgexportstar.svg" />,
-        <img className={style.star} src="svgstarnoshade.svg" />,
+        <svg xmlns="http://www.w3.org/2000/svg" focusable="false" height="16" width="16" class="nui-icon nui-icon-medium-star-full Z15Hx1O"><path class="nui-icon-medium-star-full-0" d="M7.997 1.5l1.654 4.965H15l-4.328 3.069 1.651 4.966-4.326-3.07-4.325 3.07 1.651-4.966L1 6.465h5.346z" stroke="#000000" fill="#000000" stroke-width="1px"></path></svg>,
+        <svg xmlns="http://www.w3.org/2000/svg" focusable="false" height="16" width="16" class="nui-icon nui-icon-medium-star-full Z15Hx1O"><path class="nui-icon-medium-star-full-0" d="M7.997 1.5l1.654 4.965H15l-4.328 3.069 1.651 4.966-4.326-3.07-4.325 3.07 1.651-4.966L1 6.465h5.346z" stroke="#000000" fill="#000000" stroke-width="1px"></path></svg>,
+        <svg xmlns="http://www.w3.org/2000/svg" focusable="false" height="16" width="16" class="nui-icon nui-icon-medium-star-full Z15Hx1O"><path class="nui-icon-medium-star-full-0" d="M7.997 1.5l1.654 4.965H15l-4.328 3.069 1.651 4.966-4.326-3.07-4.325 3.07 1.651-4.966L1 6.465h5.346z" stroke="#000000" fill="#000000" stroke-width="1px"></path></svg>,
+        <svg xmlns="http://www.w3.org/2000/svg" focusable="false" height="16" width="16" class="nui-icon nui-icon-medium-star-full Z15Hx1O"><path class="nui-icon-medium-star-full-0" d="M7.997 1.5l1.654 4.965H15l-4.328 3.069 1.651 4.966-4.326-3.07-4.325 3.07 1.651-4.966L1 6.465h5.346z" stroke="#000000" fill="#000000" stroke-width="1px"></path></svg>,
+        <svg xmlns="http://www.w3.org/2000/svg" focusable="false" height="16" width="16" class="nui-icon nui-icon-medium-star-full Z1syfzr"><path class="nui-icon-medium-star-full-0" d="M7.997 1.5l1.654 4.965H15l-4.328 3.069 1.651 4.966-4.326-3.07-4.325 3.07 1.651-4.966L1 6.465h5.346z" stroke="#e3e3e3" fill="#e3e3e3" stroke-width="1px"></path></svg>
       ]
     ]
 
@@ -163,8 +164,16 @@ class List extends React.Component {
                   </div>
                 </div>
                 <hr className={style.line}></hr>
-                <img src="svgheart.svg" className={style.svgHeart} />
-                <img src='svgexport.svg' />
+                <span className={style.svgHeart}>
+                  <svg xmlns="http://www.w3.org/2000/svg" focusable="false" height="24" width="24" class="nui-icon nui-icon-large-heart-empty ">
+                    <path class="nui-icon-large-heart-empty-32" d="M17.75 2.185a5.73 5.73 0 0 0-4.044 1.666l-.003.003-.007.008L12 5.556l-1.694-1.694-.009-.009-.004-.003a5.75 5.75 0 0 0-8.125 8.132L12 21.815l9.831-9.834a5.748 5.748 0 0 0-4.081-9.796z" stroke="#393939" fill="none" stroke-width="1px"></path>
+                  </svg>
+                </span>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" focusable="false" height="24" width="17" class="nui-icon nui-icon-large-share ">
+                    <path class="nui-icon-large-share-0" d="M13 8.5h3.5v15H.5v-15H4" stroke="#393939" fill="none" stroke-width="1px"></path><path class="nui-icon-large-share-1" d="M8.5 15V1M13 5L8.5.5M4 5L8.5.5" stroke="#393939" fill="none" stroke-width="1px"></path>
+                  </svg>
+                
                 <span className={style.randomLikes}> {this.props.randomLikes()} love this look</span>
                 <div className={style.designerName}> From {this.props.earring.designer}, {this.props.shoe.designer}, {this.props.dress.designer}, {this.props.purse.designer}, and {this.props.bracelet.designer}</div>
                 <div>
@@ -182,6 +191,7 @@ class List extends React.Component {
             </div>
 
           </div>
+          {/* <img src={image1}/> */}
         </div>
       )
     }
