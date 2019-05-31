@@ -1,6 +1,6 @@
 .looksContainer {
   /* margin-left: 2%; */
-  padding-left: 10%;
+  padding: 0 5%;
   height: 600px;
   width: 350px;
 }
@@ -22,5 +22,6 @@
 
 .image1 {
   margin-top: 15%;
+  padding-left: 3%;
 }
 
