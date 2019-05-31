@@ -51,7 +51,7 @@ class ShoeModal extends React.Component {
                   return <span>{rating}</span>
                 })}
 
-                <span className={style.randomLikes}> ({this.props.likes})</span>
+                <span className={style.randomLikes}> ({this.props.reviewcount})</span>
 
                 <div className={style.productName}>
                   {this.props.shoe.productname}

@@ -17,7 +17,7 @@ class EarringModal extends React.Component {
           <div className={style.componentWrapper}>
 
             <div className={style.firstComponent}>
-              <img className={style.image} src={this.props.earring.imageurl} height="550px" max-width="550px" />
+              <img className={style.image} src={this.props.earring.imageurl} height="550px" max-width="450px" />
             </div>
 
             <div className={style.secondComponent}>

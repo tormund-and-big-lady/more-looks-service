@@ -23,11 +23,10 @@ class List extends React.Component {
       shoemodal: false,
       rating: false,
       stars: [],
-      reviewnumber: false,
       outfitname: false,
       likes: false,
+      reviewcount: 0,
     }
-    // this.randomOutfitNames = this.randomOutfitNames.bind(this);
     this.showEarringModal = this.showEarringModal.bind(this);
     this.showBraceletModal = this.showBraceletModal.bind(this);
     this.showDressModal = this.showDressModal.bind(this);
@@ -36,8 +35,23 @@ class List extends React.Component {
     this.stars = this.stars.bind(this);
     this.likes = this.likes.bind(this);
     this.randomOutfitNames = this.randomOutfitNames.bind(this);
+    this.reviewCount = this.reviewCount.bind(this);
   }
 
+  componentDidMount() {
+    this.likes()
+    this.randomOutfitNames()
+    this.stars()
+    this.reviewCount()
+  }
+
+  reviewCount() {
+    let num = Math.floor(Math.random() * 15)
+
+    this.setState({
+      reviewcount: num,
+    })
+  }
 
   likes() {
     let num = Math.floor(Math.random() * 10)
@@ -127,10 +141,6 @@ class List extends React.Component {
     })
   }
 
-  componentDidMount() {
-    this.likes()
-  }
-
   showDressModal() {
     this.setState({
       earringmodal: false,
@@ -138,7 +148,7 @@ class List extends React.Component {
       dressmodal: true,
       pursemodal: false,
       shoemodal: false,
-    }, () => this.stars(), () => this.likes())
+    })
   }
 
   showPurseModal() {
@@ -158,7 +168,7 @@ class List extends React.Component {
       dressmodal: false,
       pursemodal: false,
       shoemodal: true,
-    }, () => this.stars(), () => this.likes())
+    })
   }
 
 
@@ -174,7 +184,7 @@ class List extends React.Component {
             <div className={style.firstComponent}>
               <div className={style.box}>
                 <div className={style.modernOfficeWrapper}>
-                  <div className={style.modernOfficeDiv}>{this.state.outfitname}hello</div>
+                  <div className={style.modernOfficeDiv}>{this.state.outfitname}</div>
                   <a href="#" className={style.nodstromLink}>nordstrom</a>
                   <hr className={style.line}></hr>
                 </div>
@@ -213,11 +223,11 @@ class List extends React.Component {
             </div>
 
             <div className={style.secondComponent}>
-              <DressModal dress={this.props.dress} modal={this.state.dressmodal} stars={this.state.stars} likes={this.props.randomLikes} />
+              <DressModal dress={this.props.dress} modal={this.state.dressmodal} stars={this.state.stars} likes={this.props.randomLikes} reviewcount={this.state.reviewcount}/>
               <BraceletModal bracelet={this.props.bracelet} modal={this.state.braceletmodal} />
               <EarringModal earring={this.props.earring} modal={this.state.earringmodal} />
               <PurseModal purse={this.props.purse} modal={this.state.pursemodal} />
-              <ShoeModal shoe={this.props.shoe} modal={this.state.shoemodal} stars={this.state.stars} likes={this.props.randomLikes} />
+              <ShoeModal shoe={this.props.shoe} modal={this.state.shoemodal} stars={this.state.stars} likes={this.props.randomLikes} reviewcount={this.state.reviewcount}/>
             </div>
 
           </div> 
