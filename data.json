@@ -295,6 +295,246 @@
     "description": "Timeless, handcrafted studs feature sparkling stones secured by triple-pronged settings."
   },
   {
+    "productname": "Small Lunch Bag Tie Dye Denim Shoulder Bag",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse7-1.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse7-2.jpeg"
+    ],
+    "designer": "MAX MARA",
+    "price": 577,
+    "color": [
+      "Silver"
+    ],
+    "itemtype": "purses",
+    "description": "An oversized logo gleams from a comfortable leather bag you can carry as a clutch or sling over your shoulder."
+  },
+  {
+    "productname": "Risky Biz Convertible Leather Wristlet",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse6-1.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse6-2.jpeg"
+    ],
+    "designer": "THEORY",
+    "price": 479,
+    "color": [
+      "Black"
+    ],
+    "itemtype": "purses",
+    "description": "Elegant backpack crafted from durable scratch-resistant faux leather."
+  },
+  {
+    "productname": "Captain Leather & Genuine Calf Hair Shoulder Bag",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse5-1.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse5-2.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse5-3.jpeg"
+    ],
+    "designer": "ALEXANDER WANG",
+    "price": 779,
+    "color": [
+      "Porcelain Rose"
+    ],
+    "itemtype": "purses",
+    "description": "Gorgeous backpack crafted from durable scratch-resistant faux leather."
+  },
+  {
+    "productname": "Small Bag Bug Genuine Shearling Shoulder Bag",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse4-1.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse4-2.jpeg"
+    ],
+    "designer": "GUCCI",
+    "price": 968,
+    "color": [
+      "Beige Ebony"
+    ],
+    "itemtype": "purses",
+    "description": "Star studded and outfitted with single rosette stone. The modern and cute design of this bag makes it extremely versatile."
+  },
+  {
+    "productname": "Lonchamp Mini Le Pliage Logo Nylon Shoulder Bag",
+    "imageurl": [
+     "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse3-1.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse3-2.jpeg"
+      
+    ],
+    "designer": "MICHAEL KORS",
+    "price": 987,
+    "color": [
+      "Beige Ebony"
+    ],
+    "itemtype": "purses",
+    "description": "A campus-classic styled in textured leather, perfect for those looking for a cute look."
+  },
+  {
+    "productname": "Jimmy Travel Bag",
+    "imageurl": [
+
+    ],
+    "designer": "ALEXANDER WANG",
+    "price": 466,
+    "color": [
+      "Black"
+    ],
+    "itemtype": "purses",
+    "description": "Star studded and outfitted with single rosette stone. The modern and cute design of this bag makes it extremely versatile."
+  },
+  {
+    "productname": "Miller Hobo Bag",
+    "imageurl": [
+     "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse2-1.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse2-2.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse2-3.jpeg"
+    ],
+    "designer": "GIVENCY",
+    "price": 855,
+    "color": [
+      "Light Blue"
+    ],
+    "itemtype": "purses",
+    "description": "Star studded and outfitted with single rosette stone. The modern and cute design of this bag makes it extremely versatile."
+  },
+  {
+    "productname": "Large Grace Leather Shoulder Bag",
+    "imageurl": [
+      
+    ],
+    "designer": "MICHAEL KORS",
+    "price": 970,
+    "color": [
+      "Black Diamond"
+    ],
+    "itemtype": "purses",
+    "description": "Supersoft faux leather flips inside-out for a reversible tote makes this a expensive on the go bag."
+  },
+  {
+    "productname": "Supermini GG Marmont 2.0 Matelassé Leather Shoulder Bag",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse1-1.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse1-2.jpeg"
+      
+    ],
+    "designer": "THEORY",
+    "price": 977,
+    "color": [
+      "Blue"
+    ],
+    "itemtype": "purses",
+    "description": "Expensive backpack crafted from durable scratch-resistant faux leather."
+  },
+  {
+    "productname": "Piccola Shiny Stripe Leather Shopper Bag",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse8-1.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse8-2.jpeg"
+    ],
+    "designer": "MAX MARA",
+    "price": 577,
+    "color": [
+      "Silver"
+    ],
+    "itemtype": "purses",
+    "description": "An oversized logo gleams from a comfortable leather bag you can carry as a clutch or sling over your shoulder."
+  },
+  {
+    "productname": "Anouk Leather Shoulder Bag",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse9-1.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse9-2.jpeg"
+    ],
+    "designer": "THEORY",
+    "price": 479,
+    "color": [
+      "Black"
+    ],
+    "itemtype": "purses",
+    "description": "Elegant backpack crafted from durable scratch-resistant faux leather."
+  },
+  {
+    "productname": "Medium Loulou Matelassé Leather Shoulder Bag, Main, color, DARK SMOG",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse10-1.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse10-2.jpeg"
+    ],
+    "designer": "ALEXANDER WANG",
+    "price": 779,
+    "color": [
+      "Porcelain Rose"
+    ],
+    "itemtype": "purses",
+    "description": "Gorgeous backpack crafted from durable scratch-resistant faux leather."
+  },
+  {
+    "productname": "Large Becky Quilted Lambskin Leather Shoulder Bag",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse11-1.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse11-2.jpeg"
+    ],
+    "designer": "GUCCI",
+    "price": 968,
+    "color": [
+      "Beige Ebony"
+    ],
+    "itemtype": "purses",
+    "description": "Star studded and outfitted with single rosette stone. The modern and cute design of this bag makes it extremely versatile."
+  },
+  {
+    "productname": "Piccola Shiny Stripe Leather Shopper Bag",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse14-1.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse14-2.jpeg"
+    ],
+    "designer": "MAX MARA",
+    "price": 577,
+    "color": [
+      "Silver"
+    ],
+    "itemtype": "purses",
+    "description": "An oversized logo gleams from a comfortable leather bag you can carry as a clutch or sling over your shoulder."
+  },
+  {
+    "productname": "Anouk Leather Shoulder Bag",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse15-1.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse15-2.jpeg"
+    ],
+    "designer": "THEORY",
+    "price": 479,
+    "color": [
+      "Black"
+    ],
+    "itemtype": "purses",
+    "description": "Elegant backpack crafted from durable scratch-resistant faux leather."
+  },
+  {
+    "productname": "Small Monogram Quilted Calfskin Shoulder Bag",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse12-1.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse12-2.jpeg"
+    ],
+    "designer": "MICHAEL KORS",
+    "price": 987,
+    "color": [
+      "Beige Ebony"
+    ],
+    "itemtype": "purses",
+    "description": "A campus-classic styled in textured leather, perfect for those looking for a cute look."
+  },
+  {
+    "productname": "Soho Disco Leather Bag",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse13-1.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/purses/npurse13-2.jpeg"
+    ],
+    "designer": "ALEXANDER WANG",
+    "price": 466,
+    "color": [
+      "Black"
+    ],
+    "itemtype": "purses",
+    "description": "Star studded and outfitted with single rosette stone. The modern and cute design of this bag makes it extremely versatile."
+  },
+  {
     "productname": "Mingle Mingle Mini Embossed Leather Crossbody Bag",
     "imageurl": [
       "https://s3-us-west-1.amazonaws.com/fec-nordstrom-images/purses/purse1/22e1e593-2021-4154-b01a-67e5beb57a79.jpeg",
@@ -542,6 +782,188 @@
     ],
     "itemtype": "bracelet",
     "description": "Sleek, modern, and beautiful. Modern bracelet to complete your favorite looks."
+  },
+  {
+    "productname": "Lawrence Bracelet",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/bracelets/nbracelet9.jpeg"
+    ],
+    "designer": "MAX MARA",
+    "price": 89,
+    "color": [
+      "Gold"
+    ],
+    "itemtype": "bracelet",
+    "description": "This cute bracelet is highly fashionable. Wearable at any occasion."
+  },
+  {
+    "productname": "Uma Filigree Bracelet",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/bracelets/nbracelet8.jpeg"
+    ],
+    "designer": "THOM BROWNE",
+    "price": 41,
+    "color": [
+      "Gold"
+    ],
+    "itemtype": "bracelet",
+    "description": "This trendy bracelet is highly fashionable. Wearable at any occasion."
+  },
+  {
+    "productname": "Cubic Zirconia Slider Bracelet",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/bracelets/nbracelet7.jpeg"
+    ],
+    "designer": "MAX MARA",
+    "price": 88,
+    "color": [
+      "Bright Silver Metal"
+    ],
+    "itemtype": "bracelet",
+    "description": "This elegant bracelet is highly fashionable. Wearable at any occasion."
+  },
+  {
+    "productname": "Logo Pearl Bracelet",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/bracelets/nbracelet6.jpeg"
+    ],
+    "designer": "THEORY",
+    "price": 59,
+    "color": [
+      "Silver"
+    ],
+    "itemtype": "bracelet",
+    "description": "This elegant bracelet is highly fashionable. Wearable at any occasion."
+  },
+  {
+    "productname": "'Oval' Large Link Bracelet",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/bracelets/nbracelet5.jpeg"
+    ],
+    "designer": "MOSCHINO",
+    "price": 41,
+    "color": [
+      "Silver"
+    ],
+    "itemtype": "bracelet",
+    "description": "This cute bracelet is highly fashionable. Wearable at any occasion."
+  },
+  {
+    "productname": "Opyum YSL Double Wrap Bracelet",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/bracelets/nbracelet4.jpeg"
+    ],
+    "designer": "ALEXANDER WANG",
+    "price": 68,
+    "color": [
+      "Silver/Lapis"
+    ],
+    "itemtype": "bracelet",
+    "description": "This cute bracelet is highly fashionable. Wearable at any occasion."
+  },
+  {
+    "productname": "Statement Bangle",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/bracelets/nbracelet3.jpeg"
+    ],
+    "designer": "MICHAEL KORS",
+    "price": 43,
+    "color": [
+      "Clear-Silver"
+    ],
+    "itemtype": "bracelet",
+    "description": "Sleek, modern, and beautiful. Modern bracelet to complete your favorite looks."
+  },
+  {
+    "productname": "Elaina Birthstone Bracelet",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/bracelets/nbracelet2.jpeg"
+    ],
+    "designer": "ALICE + OLIVIA",
+    "price": 44,
+    "color": [
+      "Gold"
+    ],
+    "itemtype": "bracelet",
+    "description": "Sleek, modern, and beautiful. Modern bracelet to complete your favorite looks."
+  },
+  {
+    "productname": "Open Charm Bangle",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/bracelets/nbracelet1.jpeg"
+    ],
+    "designer": "MICHAEL KORS",
+    "price": 60,
+    "color": [
+      "Two Tone"
+    ],
+    "itemtype": "bracelet",
+    "description": "Sleek, modern, and beautiful. Modern bracelet to complete your favorite looks."
+  },
+  {
+    "productname": "Beaded Slider Bracelet",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/bracelets/nbracelet10.jpeg"
+    ],
+    "designer": "MAX MARA",
+    "price": 89,
+    "color": [
+      "Gold"
+    ],
+    "itemtype": "bracelet",
+    "description": "This cute bracelet is highly fashionable. Wearable at any occasion."
+  },
+  {
+    "productname": "Set of 4 Beaded Stretch Bracelets",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/bracelets/nbracelet11.jpeg"
+    ],
+    "designer": "THOM BROWNE",
+    "price": 41,
+    "color": [
+      "Gold"
+    ],
+    "itemtype": "bracelet",
+    "description": "This trendy bracelet is highly fashionable. Wearable at any occasion."
+  },
+  {
+    "productname": "Logo Charm Bracelet",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/bracelets/nbracelet12.jpeg"
+    ],
+    "designer": "MAX MARA",
+    "price": 88,
+    "color": [
+      "Bright Silver Metal"
+    ],
+    "itemtype": "bracelet",
+    "description": "This elegant bracelet is highly fashionable. Wearable at any occasion."
+  },
+  {
+    "productname": "Bourbon and Bowties Stretch Beaded Bracelet Set",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/bracelets/nbracelet13.jpeg"
+    ],
+    "designer": "THEORY",
+    "price": 59,
+    "color": [
+      "Silver"
+    ],
+    "itemtype": "bracelet",
+    "description": "This elegant bracelet is highly fashionable. Wearable at any occasion."
+  },
+  {
+    "productname": "Whispers Mom Bracelet with 14K Yellow Gold",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/bracelets/nbracelet14.jpeg"
+    ],
+    "designer": "MOSCHINO",
+    "price": 41,
+    "color": [
+      "Silver"
+    ],
+    "itemtype": "bracelet",
+    "description": "This cute bracelet is highly fashionable. Wearable at any occasion."
   },
   {
     "productname": "Dot Cascade Ruffle Sleeveless Dress",
@@ -943,6 +1365,83 @@
     "imageurl": [
       "https://s3-us-west-1.amazonaws.com/fec-image-dump/Tiered+Ruffle+Sleeve+Dress/Blue+Illusion/7e5e6f14-ab65-4dcd-9b23-4307bbb57f1d.jpeg",
       "https://s3-us-west-1.amazonaws.com/fec-image-dump/Tiered+Ruffle+Sleeve+Dress/Blue+Illusion/1a0e1300-3c45-4fd2-b1c0-c0bf5a26cb30.jpeg"
+    ],
+    "designer": "Burberry",
+    "clothingsizes": [
+      "X-Small",
+      "X-Large"
+    ],
+    "price": 173,
+    "itemtype": "dress",
+    "description": "Fluttery short sleeves and a flowy tiered skirt bring soft dimension to a faux-wrap dress cut from whisper-light georgette."
+  },
+  {
+    "productname": "Sunrise Wanderer Minidress",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/dresses/ndress4-1.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/dresses/ndress4-2.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/dresses/ndress4-3.jpeg"
+    ],
+    "designer": "Max Mara",
+    "clothingsizes": [
+      "X-Small",
+      "Medium",
+      "Large"
+    ],
+    "price": 146,
+    "color": [
+      "Plum"
+    ],
+    "itemtype": "dress",
+    "description": "Beautifully detailed embroidery in rich colors stands out at the yoke and hem of a breezy boho-chic minidress designed with a slim keyhole at the back."
+  },
+  {
+    "productname": "The Motherchic Avalon Faux Wrap Jersey Dress",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/dresses/ndress3.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/dresses/ndress3-2.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/dresses/ndress3-3.jpeg"
+    ],
+    "designer": "Alexander Wang",
+    "clothingsizes": [
+      "X-Small",
+      "Medium",
+      "Large"
+    ],
+    "price": 102,
+    "color": [
+      "Heather Grey"
+    ],
+    "itemtype": "dress",
+    "description": "From a collaboration with fashion/lifestyle blogger Lindsey Schuster, cute pieces like this one prove that looking good can be a breeze—even on crazy-busy days."
+  },
+  {
+    "productname": "The Motherchic Summer Nights Maxi Dress",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/dresses/ndress2.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/dresses/ndress2-2.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/dresses/ndress2-3.jpeg"
+    ],
+    "designer": "Alice + Olivia",
+    "clothingsizes": [
+      "Small",
+      "Medium",
+      "Large",
+      "X-Large"
+    ],
+    "price": 173,
+    "color": [
+      "Gold Floral"
+    ],
+    "itemtype": "dress",
+    "description": "From a collaboration with fashion/lifestyle blogger Lindsey Schuster, cute pieces like this one prove that looking good can be a breeze—even on crazy-busy days."
+  },
+  {
+    "productname": "Tiered Ruffle Sleeve Dress",
+    "imageurl": [
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/dresses/ndress1.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/dresses/ndress1-2.jpeg",
+      "https://fec-nordstrom-images.s3-us-west-1.amazonaws.com/dresses/ndress1-3.jpeg"
     ],
     "designer": "Burberry",
     "clothingsizes": [

@@ -1,8 +1,12 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
+
+let DB_URL = (process.env.NODE_ENV === 'development') ? 'mongodb://localhost/morelooks' : `mongodb+srv://gab:${process.env.DB_PW}@cluster0-2soin.mongodb.net/test?retryWrites=true&w=majority`;
+
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb://localhost/morelooks', {useNewUrlParser: true})
+mongoose.connect(DB_URL, {useNewUrlParser: true})
   .then(() => console.log('connection made'))
   .catch(err => console.error(err))
 
